@@ -6,7 +6,7 @@
 #define Y0 20.0
 
 #define Z_SAFE 5.0
-#define Z_WORK -4.0
+#define Z_WORK 4.0
 
 #define FEED_Z 100
 #define FEED_XY 800
