@@ -3,6 +3,7 @@
 #include "motion.h"
 #include "plate.h"
 #include "gcode.h"
+#include "pipette.h"
 
 void dispense() {
     write_line("; DISPENSE");
@@ -22,7 +23,7 @@ void process_well(int row, int col) {
 
     write_line("G4 P0.6");
 
-    dispense();
+    pipette_dispense();
 
     go_safe_height();
 }

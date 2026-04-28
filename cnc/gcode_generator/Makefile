@@ -1,6 +1,6 @@
 # ===== CONFIG =====
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -I. -Igcode -Imotion -Iplate -Iprocess
+CFLAGS = -Wall -Wextra -std=c99 -I. -Igcode -Imotion -Iplate -Iprocess -Ipipette
 
 TARGET = cnc-test
 
@@ -8,7 +8,8 @@ SRC = main.c \
       gcode/gcode.c \
       motion/motion.c \
       plate/plate.c \
-      process/process.c
+      process/process.c \
+			pipette/pipette.c
 
 OBJ = $(SRC:.c=.o)
 
