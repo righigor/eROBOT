@@ -1,0 +1,46 @@
+# ========================
+# 🔧 COMPILAÇÃO (C)
+# ========================
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# binários
+cnc-test
+
+# ========================
+# 🧪 ARQUIVOS GERADOS
+# ========================
+# *.gcode
+*.nc
+output/
+
+# ========================
+# 🗂️ BUILD (caso crie depois)
+# ========================
+build/
+dist/
+
+# ========================
+# 💻 SISTEMA (Linux/Mac)
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# 🧠 EDITORES / IDEs
+# ========================
+.vscode/
+.idea/
+
+# arquivos temporários
+*~
+*.swp
+*.swo
+
+# ========================
+# 📦 DEPENDÊNCIAS (futuro)
+# ========================
+node_modules/
