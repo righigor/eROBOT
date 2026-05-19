@@ -44,3 +44,6 @@ Thumbs.db
 # 📦 DEPENDÊNCIAS (futuro)
 # ========================
 node_modules/
+venv/
+__pycache__/
+*.pyc
