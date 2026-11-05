@@ -1,0 +1,7 @@
+# Geometria da placa de poços — VALIDADA (fonte da verdade)
+# Zero da peça: centro do poço H1. A1 = canto superior esquerdo da folha.
+linhas = 8          # A..H
+colunas = 21        # 1..21
+passo_x = 9.53      # mm (medido com paquímetro)
+passo_y = 33.72     # mm (medido com paquímetro)
+profundidade_poco = 9.5   # mm a partir da superfície (DEPTH validado na furação)

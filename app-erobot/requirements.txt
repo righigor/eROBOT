@@ -1,0 +1,4 @@
+# Dependências externas. Tkinter e tomllib já vêm com o Python 3.11+
+# (Tkinter no Ubuntu: sudo apt install python3-tk)
+pytest
+tomli; python_version < "3.11"

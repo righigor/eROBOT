@@ -1,0 +1,20 @@
+# Parâmetros da pipeta — PROVISÓRIOS (a medir quando a pipeta ficar pronta)
+# Ponto de partida: valores do script de furação (Z_SAFE=5, Z_PARK=35, feed 150),
+# com margem maior por ser outra ferramenta. Z0 = superfície da folha.
+# Enquanto provisorio = true, o modo REAL é bloqueado (só dry-run).
+provisorio = true
+
+z_park = 35.0          # mm, início/fim do programa (sobe antes de andar)
+z_safe = 10.0          # mm, trânsito entre poços (XY só acontece a partir daqui)
+z_aprox = 3.0          # mm, altura onde a descida passa de rápida (G0) para lenta (G1)
+z_descida_poco = -3.0  # mm, profundidade dentro do poço, modo real (conservador)
+z_dry = 2.0            # mm, altura do teste no ar (acima da folha, não entra no poço)
+feed_z = 150           # mm/min, descida lenta
+espera_no_poco = 0.0   # s, pausa (G4) no fundo; 0 = sem pausa
+
+[maquina]
+curso_x = 300.0        # mm nominal (WK-3030)
+curso_y = 300.0
+
+[saida]
+comentarios = false    # true: inclui linhas ';' no .nc (confirmar que o A11 aceita)
