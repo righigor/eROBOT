@@ -4,6 +4,10 @@
 # Enquanto provisorio = true, o modo REAL é bloqueado (só dry-run).
 provisorio = true
 
+[geometria]
+espacamento_pontas = 9.53
+orientacao = "x"
+
 z_park = 35.0          # mm, início/fim do programa (sobe antes de andar)
 z_safe = 10.0          # mm, trânsito entre poços (XY só acontece a partir daqui)
 z_aprox = 3.0          # mm, altura onde a descida passa de rápida (G0) para lenta (G1)

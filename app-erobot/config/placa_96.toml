@@ -1,0 +1,16 @@
+
+# Placa de 96 poços
+# Modelo ainda não identificado
+# Passos informados: 8,40 mm nos dois eixos
+
+modelo = "nao_identificado"
+
+rotulos_linhas = ["A", "B", "C", "D", "E", "F", "G", "H"]
+linhas = 8
+colunas = 12
+
+passo_x = 8.40
+passo_y = 8.40
+
+# Pendente de medição
+profundidade_poco = 0.0

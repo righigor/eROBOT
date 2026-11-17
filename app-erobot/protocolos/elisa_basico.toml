@@ -1,3 +1,4 @@
 # Protocolo de exemplo — formato PROVISÓRIO, só para testar a listagem
 nome = "ELISA básico"
 descricao = "Exemplo provisório. Os campos reais serão definidos depois."
+placa="placa"
